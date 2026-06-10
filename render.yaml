@@ -1,6 +1,4 @@
 services:
   - type: web
     name: student-management-system-fullstack
-    env: java
-    buildCommand: chmod +x mvnw && ./mvnw clean package -DskipTests
-    startCommand: java -jar target/*.jar
+    env: docker
